@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
 
 
 function getWeatherByPosition(long, lat) {
-    const apiKey = "5003c5431558e45afd00e13fd860b46d"
+    const apiKey = "add your key"
     const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&APPID=${apiKey}`
     return fetch(api)
 
